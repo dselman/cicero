@@ -15,11 +15,11 @@
 'use strict';
 
 /**
- * Cicero Core - defines the core data types for Cicero.
+ * Cicero-Core module. Cicero is a framework for creating executable
+ * smart legal clause and contract templates.
  * @module cicero-core
  */
 
 module.exports.Clause = require('./lib/clause');
 module.exports.Template = require('./lib/template');
-module.exports.version = require('./package.json');
-module.exports.logger = require('./lib/logger');
+module.exports.Logger = require('./lib/logger');
