@@ -57,7 +57,7 @@ class TemplateInstance {
             throw new Error(`Invalid data, must be a valid instance of the template model ${templateModel.getFullyQualifiedName()} but got: ${JSON.stringify(data)} `);
         }
 
-        // downloadExternalDependencies the data using the template model
+        // validate the data using the template model
         logger.debug('Setting clause data: ' + JSON.stringify(data));
         const resource = this.getTemplate().getSerializer().fromJSON(data);
         resource.validate();
