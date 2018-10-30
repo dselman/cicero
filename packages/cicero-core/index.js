@@ -19,6 +19,7 @@
  * @module cicero-core
  */
 
+module.exports.CiceroModelManager = require('./lib/ciceromodelmanager');
 module.exports.Clause = require('./lib/clause');
 module.exports.Template = require('./lib/template');
 module.exports.TemplateLibrary = require('./lib/templatelibrary');
